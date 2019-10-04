@@ -50,6 +50,7 @@ a{
     background-color: #6674ff;
     padding: 20px;
     margin-bottom: 120px;
+    border-bottom: 4px dotted #fff;
 }
 .name{
     text-align: center;
