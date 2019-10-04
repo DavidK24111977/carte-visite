@@ -12,6 +12,7 @@ h1,h2{
 }
 h1{
     font-size: 3.4em;
+    color: rgba(255,255,255,0.7);
 }
 h2{
     font-size: 2.4em;
@@ -27,12 +28,14 @@ a{
     width: 50%;
     margin: 50px auto;
     background-color: #1b1925;
+    box-shadow: 0 0 20px  rgba(0,0,0,0.5);
+
 
 }
 .pp{
     border: 1px solid #fff;
     vertical-align: top;
-    margin: 10px;
+    margin: 20px;
     float: left;
 }
 .pp img{
@@ -45,7 +48,7 @@ a{
 }
 .job{
     background-color: #6674ff;
-    padding: 10px;
+    padding: 20px;
     margin-bottom: 120px;
 }
 .name{
@@ -67,8 +70,8 @@ footer li {
 footer li .icon{
     font-size: 1.8em;
     padding: 10px;
-    margin-left: 50px;
-    border-radius: 2px;
+    margin-left: 35px;
+    border-radius: 10px;
     display: block;
     width: 20px;
     height: 20px;
