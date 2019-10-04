@@ -55,6 +55,12 @@ a{
 .name{
     text-align: center;
 }
+.name a{
+    color: #fff;
+}
+.name a:hover{
+    color: #6674ff;
+}
 .sep{
     margin: 0 20px;
 }
