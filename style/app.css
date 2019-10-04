@@ -33,12 +33,12 @@ a{
 
 }
 .pp{
-    border: 1px solid #fff;
     vertical-align: top;
     margin: 20px;
     float: left;
 }
 .pp img{
+    border: 1px solid #fff;
     width: 150px;
     height: 150px;
 }
@@ -97,4 +97,19 @@ footer li .icon:hover.facebook, footer li .icon:hover.twitter, footer li .icon:h
 }
 .linkedin{
     color: #3c5bbc;
+}
+
+@media screen and (max-width: 1024px) {
+    *{
+        text-align: center;
+    }
+    .pp {
+        float: none;
+    }
+    #viewport{
+        padding-top: 20px;
+    }
+    .job{
+        margin-bottom: 60px;
+    }
 }
